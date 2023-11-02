@@ -28,11 +28,15 @@ function findLargestNumber(randomNumbers) {
   let highestNumber = randomNumbers[0];
 
   // Add your for loop here
-  for(let i = 0; i < randomNumbers.length; i++) {
+  
+  for (i = 0; i < randomNumbers.length; i++) {
     if (randomNumbers[i] > highestNumber) {
       highestNumber = randomNumbers[i];
     }
-  }
+  } 
+
+
+
 
   // This returns the value we identified
   return highestNumber;
@@ -53,12 +57,11 @@ function findSmallestNumber(randomNumbers) {
   let smallestNumber = randomNumbers[0];
 
   // Add your for loop here
-  for(let i = 0; i < randomNumbers.length; i++) {
-    if (randomNumbers[i] < smallestNumber) {
-      smallestNumber = randomNumbers[i];
-    }
-  }
+  
 
+
+
+  
   // This returns the value we identified
   return smallestNumber;
 }
