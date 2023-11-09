@@ -127,7 +127,7 @@ console.log("You can buy " + productQuantity + " for " + totalPrice);
 //  isRural : false
 //
 
-ward = {
+let ward = {
     name: "College Ward",
     number: 2,
     population: 45000,
